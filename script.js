@@ -25,7 +25,7 @@ function showData(){
     setTimeout(()=>{
         pageCount++;
         fetchData()
-    },100)
+    },300)
 }
 window.addEventListener("scroll",()=>{
     const {scrollHeight,scrollTop, clientHeight}=document.documentElement;
