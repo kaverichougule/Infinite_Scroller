@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7a5ef8;
+    font-family: 'Gentium Book Plus', serif;
+}
+.container{
+    min-width: 20rem;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-size: 3rem;
+}
+.container .heading{
+    text-align: center;
+    border-bottom: 3px solid #35257c;
+}
+.container .post{
+    margin-top: 2rem;
+    background-color: aliceblue;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 2rem 2rem -1.7rem rgba(0,0,0,0.6);
+}
+.container .post-id{
+    background-color: #7a5ef8;
+    height: 3rem;
+    width: 3rem;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+}
+.container .title{
+    font-size: 1.6rem;
+    margin: 0.5rem 0 0.5rem 0;
+    text-transform: capitalize;
+}
+.container .post-info{
+    font-size: 1rem;
+}
